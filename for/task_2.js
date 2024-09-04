@@ -45,7 +45,22 @@ for(let i=78; i<=98; i+=2){
 
 for(let i=78; i<=98; i++){
     if(i% 2 !== 1){
-        console.log(i);
+        // console.log(i);
     }
     i++;
+}
+
+let i = 78;
+while(i<=98){
+    // console.log(i);
+    i+=2;
+}
+
+let n = 78;
+
+while(n<=98){
+    if(n%2 === 0){
+        console.log(n);
+    }
+    n++;
 }
